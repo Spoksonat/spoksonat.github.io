@@ -1,0 +1,31 @@
+[
+  
+  {
+    "title": "General Relativity Equation Generator (GREG)",
+    "url": "/posts/Relativity/",
+    "categories": "Software Development, Relativity",
+    "tags": "GREG, General Relativity",
+    "date": "2025-11-15 19:30:00 +0100",
+    "content": "About the Project  Python program and LaTeX document to generate a PDF file (called Cantidades_relativistas.pdf) containing the relevant quantities of General Relativity for a given metric (the metric tensor, Christoffel symbols, Ricci tensor, Einstein tensor, stress–energy tensor for a perfect fluid, Einstein field equations, the determinant of the metric tensor, Gaussian curvature, geodesic equations, and the Lagrangian). In this implementation, ( c = 1 ).  The program can be executed for three predefined metrics, as well as a manually entered one. The predefined metrics are: Minkowski, Schwarzschild and FLRW (Friedmann–Lemaître–Robertson–Walker). The manual mode allows assigning a name to the metric, selecting the coordinates (Spherical, Cylindrical or Cartesian), and entering each component of the metric tensor. A recommended metric to test the manual mode is the Rindler metric in cartesian coordinates:  [\\begin{align}   g_{00} = -x^2, \\, g_{11}=g_{22}=g_{33}=1, \\, g_{\\mu \\nu}= 0 \\, (\\mu \\neq \\nu).   \\label{eq:Rindler} \\end{align}]  The manual mode allows the use of six symbolic constants c_1, c_2, c_3, c_4, c_5, c_6 and eight functions f_1, f_2, f_3, f_4, f_5, f_6, f_7, f_8, which can be used when entering each component of the metric tensor. The eight functions may depend on any variable, so the variable dependence must be specified in the console. For example, if the 00 component of the metric tensor should be a function of the variable theta in spherical coordinates, then the console input should be: Enter g00: f_1(theta).  Note: The instructions are currently available only in Spanish in the repository.  You can check the repository here: GREG GitHub Repo."
+  },
+  
+  {
+    "title": "PTB-Tools",
+    "url": "/posts/PTB_TOOLS/",
+    "categories": "Software Development, MRI",
+    "tags": "PTB-Tools, MRI",
+    "date": "2025-11-15 19:00:00 +0100",
+    "content": "About the Project This project features a graphical user interface built with HTML, CSS, and JavaScript to execute image analysis and processing algorithms specifically designed for magnetic resonance imaging (MRI). These algorithms are typically used by division 8.14 (Ultrahigh Field MRI) of the Physikalisch-Technische Bundesanstalt (PTB).  The Python codes used in this project implement tools for obtaining B1+ maps from CV/GRE or AFI images, selecting regions of interest (ROI) in the B1+ maps, executing B1 shimming algorithms, and designing kT-points pulses.  You can check the repository here: PTB-Tools GitHub Repo."
+  },
+  
+  {
+    "title": "CATNIP",
+    "url": "/posts/CATNIP/",
+    "categories": "Software Development, X-ray Imaging",
+    "tags": "CATNIP",
+    "date": "2025-11-15 18:00:00 +0100",
+    "content": "About the Project Comprehensive Analysis Toolkit for Near-field Imaging and Phase-retrieval (CATNIP) is a software tool for rapidly generating simulated datasets based on wave-optics simulations, intended for testing multimodal retrieval algorithms in X-ray near-field imaging. It is developed and maintained by the High-Energy Physics Research Group at Universidad de los Andes (Uniandes). The frontend and backend are implemented in Python, and the graphical interface runs within the CATNIP virtual environment, whose installation is described in the manual.  You can check the repository here: CATNIP GitHub Repo."
+  }
+  
+]
+

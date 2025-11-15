@@ -1,0 +1,101 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Manuel Fernando Sánchez Alarcón</title>
+  <subtitle>Personal website featuring my PhD research, academic projects, and notes on X-ray spectroscopy and computational physics.</subtitle>
+  <updated>2025-11-15T20:06:54+01:00</updated>
+  <author>
+    <name>Manuel Fernando Sánchez Alarcón</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Manuel Fernando Sánchez Alarcón </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>General Relativity Equation Generator (GREG)</title>
+    <link href="http://localhost:4000/posts/Relativity/" rel="alternate" type="text/html" title="General Relativity Equation Generator (GREG)" />
+    <published>2025-11-15T19:30:00+01:00</published>
+  
+    <updated>2025-11-15T19:30:00+01:00</updated>
+  
+    <id>http://localhost:4000/posts/Relativity/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Relativity/" />
+    <author>
+      <name>manuel</name>
+    </author>
+
+  
+    
+    <category term="Software Development" />
+    
+    <category term="Relativity" />
+    
+  
+
+  <summary>MRI image analysis tools used by the Physikalisch-Technische Bundesanstalt (PTB)- div. 8.14</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>PTB-Tools</title>
+    <link href="http://localhost:4000/posts/PTB_TOOLS/" rel="alternate" type="text/html" title="PTB-Tools" />
+    <published>2025-11-15T19:00:00+01:00</published>
+  
+    <updated>2025-11-15T19:00:00+01:00</updated>
+  
+    <id>http://localhost:4000/posts/PTB_TOOLS/</id>
+    <content type="text/html" src="http://localhost:4000/posts/PTB_TOOLS/" />
+    <author>
+      <name>manuel</name>
+    </author>
+
+  
+    
+    <category term="Software Development" />
+    
+    <category term="MRI" />
+    
+  
+
+  <summary>MRI image analysis tools used by the Physikalisch-Technische Bundesanstalt (PTB)- div. 8.14</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>CATNIP</title>
+    <link href="http://localhost:4000/posts/CATNIP/" rel="alternate" type="text/html" title="CATNIP" />
+    <published>2025-11-15T18:00:00+01:00</published>
+  
+    <updated>2025-11-15T18:00:00+01:00</updated>
+  
+    <id>http://localhost:4000/posts/CATNIP/</id>
+    <content type="text/html" src="http://localhost:4000/posts/CATNIP/" />
+    <author>
+      <name>manuel</name>
+    </author>
+
+  
+    
+    <category term="Software Development" />
+    
+    <category term="X-ray Imaging" />
+    
+  
+
+  <summary>CATNIP stands for Comprehensive Analysis Toolkit for Near-field Imaging and Phase-retrieval.</summary>
+
+  </entry>
+
+</feed>
+
+
