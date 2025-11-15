@@ -1,10 +1,10 @@
 ---
 title: General Relativity Equation Generator (GREG)
-date: 2025-11-15 19:30:00 +/-TTTT
+date: 2025-11-15 20:00:00 +/-TTTT
 categories: [Software Development, Relativity]
 tags: [GREG, General Relativity]     # TAG names should always be lowercase
 author: manuel                    # for single entry
-description: MRI image analysis tools used by the Physikalisch-Technische Bundesanstalt (PTB)- div. 8.14
+description: Python general relativity equation generator
 toc: True
 math: true
 ---
