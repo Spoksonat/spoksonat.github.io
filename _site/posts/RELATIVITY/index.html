@@ -30,25 +30,26 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="404: Page not found" />
+<meta property="og:title" content="General Relativity Equation Generator (GREG)" />
 <meta name="author" content="Manuel Sánchez" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Personal website featuring my PhD research, academic projects, and notes on X-ray spectroscopy and computational physics." />
-<meta property="og:description" content="Personal website featuring my PhD research, academic projects, and notes on X-ray spectroscopy and computational physics." />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
+<meta name="description" content="Python general relativity equation generator" />
+<meta property="og:description" content="Python general relativity equation generator" />
+<link rel="canonical" href="http://localhost:4000/posts/RELATIVITY/" />
+<meta property="og:url" content="http://localhost:4000/posts/RELATIVITY/" />
 <meta property="og:site_name" content="Manuel Fernando Sánchez Alarcón" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-11-16T20:00:00+01:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="404: Page not found" />
+<meta property="twitter:title" content="General Relativity Equation Generator (GREG)" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@username_here" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Manuel Sánchez","url":"https://manuel.github.io"},"description":"Personal website featuring my PhD research, academic projects, and notes on X-ray spectroscopy and computational physics.","headline":"404: Page not found","url":"http://localhost:4000/404.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Manuel Sánchez","url":"https://manuel.github.io"},"dateModified":"2025-11-16T20:00:00+01:00","datePublished":"2025-11-16T20:00:00+01:00","description":"Python general relativity equation generator","headline":"General Relativity Equation Generator (GREG)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/RELATIVITY/"},"url":"http://localhost:4000/posts/RELATIVITY/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>404: Page not found | Manuel Fernando Sánchez Alarcón
+  <title>General Relativity Equation Generator (GREG) | Manuel Fernando Sánchez Alarcón
   </title>
 
   <!--
@@ -106,6 +107,8 @@
 
   <!-- 3rd-party Dependencies -->
 
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.36.4/dist/tocbot.min.css">
   
 
   
@@ -179,9 +182,44 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/en.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js,npm/tocbot@4.36.4/dist/tocbot.min.js"></script>
 
 
 
@@ -189,11 +227,20 @@
 
 
 
-<script defer src="/assets/js/dist/page.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
+
+  <!-- MathJax -->
+  <script src="/assets/js/data/mathjax.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -390,8 +437,10 @@
           
         
           
+        
+          
             
-              <span>404: Page not found</span>
+              <span>General Relativity Equation Generator (GREG)</span>
             
 
           
@@ -405,7 +454,7 @@
     </button>
 
     <div id="topbar-title">
-      404: Page not found
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -474,6 +523,27 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -498,21 +568,243 @@
 
 
 
-<article class="px-1">
+
+
+
+
+
+
+<article class="px-1" data-toc="true">
+  <header>
+    <h1 data-toc-skip>General Relativity Equation Generator (GREG)</h1>
+    
+      <p class="post-desc fw-light mb-4">Python general relativity equation generator</p>
+    
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
   
-    
-    
-    <h1 class="dynamic-title">
-      404: Page not found
-    </h1>
-    <div class="content">
+  data-ts="1763319600"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Nov 16, 2025
+</time>
+
+      </span>
+
+      <!-- lastmod date -->
       
 
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          By
+
+          <em>
+            
+              
+                <a href="https://manuel.github.io">Manuel Sánchez</a>
+                
+              
+            
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
 
 
-<p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.</p>
+
+<!-- words per minute -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="254 words"
+>
+  <em>1 min</em> read</span>
+
+        </div>
+      </div>
     </div>
+  </header>
+
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">General Relativity Equation Generator (GREG)</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">General Relativity Equation Generator (GREG)</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
+
+  <div class="content">
+    <h2 id="about-the-project"><span class="me-2">About the Project</span><a href="#about-the-project" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Python program and LaTeX document to generate a PDF file (called <em>Cantidades_relativistas.pdf</em>) containing the relevant quantities of General Relativity for a given metric (the metric tensor, Christoffel symbols, Ricci tensor, Einstein tensor, stress–energy tensor for a perfect fluid, Einstein field equations, the determinant of the metric tensor, Gaussian curvature, geodesic equations, and the Lagrangian). In this implementation, ( c = 1 ).</p>
+
+<p>The program can be executed for three predefined metrics, as well as a manually entered one. The predefined metrics are: Minkowski, Schwarzschild and FLRW (Friedmann–Lemaître–Robertson–Walker).<br />
+The manual mode allows assigning a name to the metric, selecting the coordinates (Spherical, Cylindrical or Cartesian), and entering each component of the metric tensor. A recommended metric to test the manual mode is the Rindler metric in cartesian coordinates:</p>
+
+\[\begin{align}
+  g_{00} = -x^2, \, g_{11}=g_{22}=g_{33}=1, \, g_{\mu \nu}= 0 \, (\mu \neq \nu).
+  \label{eq:Rindler}
+\end{align}\]
+
+<p>The manual mode allows the use of six symbolic constants <code class="language-plaintext highlighter-rouge">c_1, c_2, c_3, c_4, c_5, c_6</code> and eight functions <code class="language-plaintext highlighter-rouge">f_1, f_2, f_3, f_4, f_5, f_6, f_7, f_8</code>, which can be used when entering each component of the metric tensor. The eight functions may depend on any variable, so the variable dependence must be specified in the console. For example, if the 00 component of the metric tensor should be a function of the variable <em>theta</em> in spherical coordinates, then the console input should be:<br />
+<code class="language-plaintext highlighter-rouge">Enter g00: f_1(theta)</code>.</p>
+
+<p><em>Note: The instructions are currently available only in Spanish in the repository.</em></p>
+
+<p>You can check the repository here: <a href="https://github.com/Spoksonat/Relatividad">GREG GitHub Repo</a>.</p>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/software-development/">Software Development</a>,
+          <a href="/categories/relativity/">Relativity</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/greg/"
+            class="post-tag no-text-decoration"
+          >GREG</a>
+        
+          <a
+            href="/tags/general-relativity/"
+            class="post-tag no-text-decoration"
+          >General Relativity</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=General%20Relativity%20Equation%20Generator%20(GREG)%20-%20Manuel%20Fernando%20S%C3%A1nchez%20Alarc%C3%B3n&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FRELATIVITY%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=General%20Relativity%20Equation%20Generator%20(GREG)%20-%20Manuel%20Fernando%20S%C3%A1nchez%20Alarc%C3%B3n&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FRELATIVITY%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FRELATIVITY%2F&text=General%20Relativity%20Equation%20Generator%20(GREG)%20-%20Manuel%20Fernando%20S%C3%A1nchez%20Alarc%C3%B3n" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
+</div>
+
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
 </article>
 
 
@@ -834,12 +1126,226 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Further Reading</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/ANALYSIS_PSI/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1763492400"
+  data-df="ll"
+  
+>
+  Nov 18, 2025
+</time>
+
+              <h4 class="pt-0 my-2">XAS Analysis (Paul Scherrer Institut Data)</h4>
+              <div class="text-muted">
+                <p>Python code for XAS data obtained at the cSAXS beamline of the Swiss Light Source (Paul Scherrer Institut, Villigen, Switzerland).</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/PTB_TOOLS/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1763229600"
+  data-df="ll"
+  
+>
+  Nov 15, 2025
+</time>
+
+              <h4 class="pt-0 my-2">PTB-Tools</h4>
+              <div class="text-muted">
+                <p>MRI image analysis tools used by the Physikalisch-Technische Bundesanstalt (PTB)- div. 8.14</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/CATNIP/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1763226000"
+  data-df="ll"
+  
+>
+  Nov 15, 2025
+</time>
+
+              <h4 class="pt-0 my-2">CATNIP</h4>
+              <div class="text-muted">
+                <p>CATNIP stands for Comprehensive Analysis Toolkit for Near-field Imaging and Phase-retrieval.</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/PTB_TOOLS/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>PTB-Tools</p>
+    </a>
+  
+
+  
+    <a
+      href="/posts/ANALYSIS_PSI/"
+      class="btn btn-outline-primary"
+      aria-label="Newer"
+    >
+      <p>XAS Analysis (Paul Scherrer Institut Data)</p>
+    </a>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -1188,6 +1694,11 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
 
     
 

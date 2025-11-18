@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Manuel Fernando Sánchez Alarcón</title>
   <subtitle>Personal website featuring my PhD research, academic projects, and notes on X-ray spectroscopy and computational physics.</subtitle>
-  <updated>2025-11-15T20:06:54+01:00</updated>
+  <updated>2025-11-18T21:16:33+01:00</updated>
   <author>
     <name>Manuel Fernando Sánchez Alarcón</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,40 @@
 
   
   <entry>
+    <title>XAS Analysis (Paul Scherrer Institut Data)</title>
+    <link href="http://localhost:4000/posts/ANALYSIS_PSI/" rel="alternate" type="text/html" title="XAS Analysis (Paul Scherrer Institut Data)" />
+    <published>2025-11-18T20:00:00+01:00</published>
+  
+    <updated>2025-11-18T20:00:00+01:00</updated>
+  
+    <id>http://localhost:4000/posts/ANALYSIS_PSI/</id>
+    <content type="text/html" src="http://localhost:4000/posts/ANALYSIS_PSI/" />
+    <author>
+      <name>manuel</name>
+    </author>
+
+  
+    
+    <category term="Software Development" />
+    
+    <category term="X-ray Spectroscopy" />
+    
+  
+
+  <summary>Python code for XAS data obtained at the cSAXS beamline of the Swiss Light Source (Paul Scherrer Institut, Villigen, Switzerland).</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>General Relativity Equation Generator (GREG)</title>
-    <link href="http://localhost:4000/posts/Relativity/" rel="alternate" type="text/html" title="General Relativity Equation Generator (GREG)" />
-    <published>2025-11-15T19:30:00+01:00</published>
+    <link href="http://localhost:4000/posts/RELATIVITY/" rel="alternate" type="text/html" title="General Relativity Equation Generator (GREG)" />
+    <published>2025-11-16T20:00:00+01:00</published>
   
-    <updated>2025-11-15T19:30:00+01:00</updated>
+    <updated>2025-11-16T20:00:00+01:00</updated>
   
-    <id>http://localhost:4000/posts/Relativity/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Relativity/" />
+    <id>http://localhost:4000/posts/RELATIVITY/</id>
+    <content type="text/html" src="http://localhost:4000/posts/RELATIVITY/" />
     <author>
       <name>manuel</name>
     </author>
@@ -40,7 +66,7 @@
     
   
 
-  <summary>MRI image analysis tools used by the Physikalisch-Technische Bundesanstalt (PTB)- div. 8.14</summary>
+  <summary>Python general relativity equation generator</summary>
 
   </entry>
 
